@@ -43,7 +43,7 @@ namespace EXE5_20210140012_Kelompok1
                 Console.WriteLine("Tidak ada data dalam antrian!");
                 return;
             }
-            Console.WriteLine("Data yang dihapus dari antrian : " + Erlangga.nama);
+            Console.WriteLine("Data yang dihapus dari antrian : " + Muhammad.nama);
             Console.ReadKey();
             Muhammad = Muhammad.next;
             if (Muhammad == null)
@@ -90,11 +90,11 @@ namespace EXE5_20210140012_Kelompok1
                                 break;
                         case '2':
                                 Console.Clear();
-                                qw.display();
+                                qw.delete();
                                 break;
                         case '3':
                                 Console.Clear();
-                                qw.delete();
+                                qw.display();
                                 break;
                         case '4':
                                 return;
