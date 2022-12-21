@@ -19,5 +19,22 @@ namespace EXE5_20210140012_Kelompok1
             Muhammad = null;
             Erlangga = null;
         }
+        public void insert()
+        {
+            string NM;
+            Node NewNode = new Node();
+            Console.WriteLine("Masukkan Element : ");
+            NM = Console.ReadLine();
+            NewNode.NAME = NM;
+            NewNode.NEXT = null;
+            if (Muhammad == null)
+            {
+                Muhammad = NewNode;
+                Erlangga = NewNode;
+                return;
+            }
+            Erlangga.NEXT = NewNode;
+            Erlangga = NewNode;
+        }
     }
 }
