@@ -79,6 +79,11 @@ namespace EXE5_20210140012_Kelompok1
                     Console.WriteLine();
                     switch (cr)
                     {
+                        case '1':
+                            {
+                                q.insert();
+                                break;
+                            }
                     }
                 }
             }
