@@ -21,11 +21,11 @@ namespace EXE5_20210140012_Kelompok1
         }
         public void insert()
         {
-            string NM;
+            string ValueRead;
             Node NewNode = new Node();
             Console.WriteLine("Masukkan Element : ");
-            NM = Console.ReadLine();
-            NewNode.NAME = NM;
+            ValueRead = Console.ReadLine();
+            NewNode.NAME = ValueRead;
             NewNode.NEXT = null;
             if (Muhammad == null)
             {
@@ -35,6 +35,17 @@ namespace EXE5_20210140012_Kelompok1
             }
             Erlangga.NEXT = NewNode;
             Erlangga = NewNode;
+        }
+        public void display()
+        {
+            if (Muhammad == null)
+            {
+                Console.WriteLine(" Queue is empty!");
+                return;
+            }
+            Node display;
+            for (display = Muhammad; display != null; display = display.NEXT)
+            Console.WriteLine(display.NAME);
         }
     }
 }
