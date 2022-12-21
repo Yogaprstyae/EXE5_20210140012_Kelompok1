@@ -11,4 +11,8 @@ namespace EXE5_20210140012_Kelompok1
         public string NAME;
         public Node NEXT;
     }
+    class queue
+    {
+        Node Muhammad, Erlangga;
+    }
 }
