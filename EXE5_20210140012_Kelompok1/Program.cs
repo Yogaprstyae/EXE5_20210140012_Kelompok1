@@ -90,11 +90,11 @@ namespace EXE5_20210140012_Kelompok1
                                 break;
                         case '2':
                                 Console.Clear();
-                                qw.delete();
+                                qw.display();
                                 break;
                         case '3':
                                 Console.Clear();
-                                qw.display();
+                                qw.delete();
                                 break;
                         case '4':
                                 return;
