@@ -94,6 +94,13 @@ namespace EXE5_20210140012_Kelompok1
                                 q.display();
                                 break;
                             }
+                        case '4':
+                            {
+                                return;
+                            }
+                            default:
+                            Console.WriteLine("Invalid Option");
+                            break;
                     }
                 }
             }
