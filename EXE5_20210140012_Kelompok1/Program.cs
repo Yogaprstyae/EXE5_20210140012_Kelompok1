@@ -47,5 +47,16 @@ namespace EXE5_20210140012_Kelompok1
             for (display = Muhammad; display != null; display = display.NEXT)
             Console.WriteLine(display.NAME);
         }
+        public void delete()
+        {
+            if (Muhammad == null)
+            {
+                Console.WriteLine(" Queue is empty!");
+                return;
+            }
+            Muhammad = Muhammad.NEXT;
+            if (Muhammad == null)
+                Erlangga = null;
+        }
     }
 }
