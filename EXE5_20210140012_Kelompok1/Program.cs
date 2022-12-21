@@ -67,6 +67,20 @@ namespace EXE5_20210140012_Kelompok1
             char cr;
             while (true)
             {
+                try
+                {
+                    Console.WriteLine("Menu");
+                    Console.WriteLine("1. Insert");
+                    Console.WriteLine("2. Delete");
+                    Console.WriteLine("3. Dispay");
+                    Console.WriteLine("4. Exit");
+                    Console.Write("\n Enter Your Choise (1-4)");
+                    cr = Convert.ToChar(Console.ReadLine());
+                    Console.WriteLine();
+                    switch (cr)
+                    {
+                    }
+                }
             }
         }
     }
