@@ -103,6 +103,10 @@ namespace EXE5_20210140012_Kelompok1
                             break;
                     }
                 }
+                catch
+                {
+                    Console.WriteLine("Silahkan periksa kembali data yang anda masukkan!");
+                }
             }
         }
     }
