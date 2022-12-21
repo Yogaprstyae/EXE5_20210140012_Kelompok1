@@ -59,4 +59,10 @@ namespace EXE5_20210140012_Kelompok1
                 Erlangga = null;
         }
     }
+    class program
+    {
+        static void Main(string[] args)
+        {
+        }
+    }
 }
