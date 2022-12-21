@@ -14,5 +14,10 @@ namespace EXE5_20210140012_Kelompok1
     class queue
     {
         Node Muhammad, Erlangga;
+        public queue()
+        {
+            Muhammad = null;
+            Erlangga = null;
+        }
     }
 }
